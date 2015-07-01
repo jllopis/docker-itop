@@ -26,7 +26,7 @@ VOLUME ["/var/www/conf", "/var/www/data", "/var/www/env-production", "/var/www/l
 
 ENTRYPOINT ["/itop-entrypoint.sh"]
 
-EXPOSE 8080
+EXPOSE 80
 CMD ["itop"]
 
 # docker build -t jllopis/itop:2.1.0 .
